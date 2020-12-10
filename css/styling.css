@@ -1,0 +1,141 @@
+/*INTRODUCTION*/
+
+#Introduction {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  line-height: 2.5rem;
+  position: relative;
+  z-index: 1;
+}
+.NAV-BAR {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+.big-heading {
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: bold;
+  padding-top: 5%;
+}
+.Introduction-Text {
+  font-size: 1.75rem;
+  color: #fff;
+}
+.img {
+  border-radius: 100%;
+}
+
+/*MORE ABOUT SCIENCE*/
+
+#mas {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 5% 15%
+}
+.mid-heading {
+  padding-bottom: 5%;
+  font-size: 2.1rem
+}
+.mas_pic{
+  border-radius: 100%;
+  width: 20%;
+  height: 35%;
+  margin: 20px;
+}
+.bcp{
+  padding: 10% 0 5%;
+}
+/*TECNOLOGY*/
+#Technology{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.Technology2{
+
+  line-height: 2.5rem;
+}
+.Technology-heading{
+  font-size: 2.5rem;
+}
+.Technology-Text {
+  font-size: 1.75rem;
+  color: #fff;
+}
+.carousel-item {
+  padding: 3% 15%;
+}
+.Technology-image {
+  border-radius: 100%;
+  width: 10%;
+  height: 90px;
+  margin: 20px;
+}
+
+/*NASA*/
+
+#Nasa {
+  text-align: center;
+  padding: 5% 15%;
+  font-size: 2.5rem;
+  position: relative;
+  z-index: 1;
+}
+.Nasa-link {
+  color: black;
+  text-decoration: underline;
+}
+.Nasa-text {
+  font-size: 1.2rem;
+}
+#linebreak::before{
+  content: "\a";
+  white-space: pre;
+}
+
+/*CONTACT*/
+
+#Contact {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  color: #fff;
+}
+.footer-fab {
+  margin: 2% 1%;
+}
+@media (max-width: 1028px) {
+  #Introduction {
+    text-align: center;
+  }
+  #linebreak1::after{
+    content: "\a";
+    white-space: pre;
+  }
+  #linebreak1::before{
+    content: "\a";
+    white-space: pre;
+  }
+  #linebreak2::after{
+    content: "\a";
+    white-space: pre;
+  }
+  #linebreak3::before{
+    content: "\a";
+    white-space: pre;
+  }
+  #linebreak4::before{
+    content: \a
+  }
+  .Technology-image {
+    border-radius: 100%;
+    width: 30%;
+    height: 90px;
+    margin: 20px;
+  }
+}
